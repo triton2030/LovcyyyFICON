@@ -1,0 +1,47 @@
+.componentParent,
+.frameGroup {
+  display: flex;
+  justify-content: flex-start;
+}
+.componentParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-5xs);
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.closePosition {
+  position: relative;
+  line-height: 14px;
+}
+.closePositionWrapper,
+.frameParent {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--blue-red-500);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  align-items: center;
+  justify-content: center;
+  color: var(--blue-red-500);
+}
+.frameParent {
+  border-radius: var(--br-7xs);
+  background-color: var(--color-midnightblue);
+  border: 1px solid var(--blue-main-block);
+  flex-direction: column;
+  padding: var(--padding-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--mono-captions-size);
+  color: var(--blue-green-400);
+  font-family: var(--par-bold);
+}

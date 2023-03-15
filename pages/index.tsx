@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import SectionSummary from "../components/section-summary";
-import CompPositionsElements from "../components/comp-positions-elements";
+import CompPostionsHolder from "../components/comp-postions-holder";
 import styles from "./index.module.css";
 
 const ConduitCompinents8: NextPage = () => {
@@ -254,67 +254,11 @@ const ConduitCompinents8: NextPage = () => {
                   </div>
                 </div>
                 <div className={styles.frameWrapper1}>
-                  <div className={styles.frameParent23}>
-                    <div className={styles.frameParent24}>
-                      <div className={styles.componentParent}>
-                        <CompPositionsElements
-                          bTCPERP="BTC-PERP"
-                          prop="$1,435.89"
-                        />
-                        <CompPositionsElements
-                          lONGDisplay="none"
-                          bTCPERP="Size"
-                          prop="0.75 ($1,183.82)"
-                          propColor="#fff"
-                        />
-                        <CompPositionsElements
-                          lONGDisplay="none"
-                          bTCPERP="Avg Entry"
-                          prop="$1,435.89"
-                          propColor="#fff"
-                        />
-                        <CompPositionsElements
-                          lONGDisplay="none"
-                          bTCPERP={`Realized P&L`}
-                          prop="-$1.43 (-9.20%)"
-                          propColor="#e4364b"
-                        />
-                      </div>
-                      <div className={styles.componentParent}>
-                        <CompPositionsElements
-                          lONGDisplay="none"
-                          bTCPERP="Leverage"
-                          prop="19.61x"
-                          propColor="#00c9a5"
-                        />
-                        <CompPositionsElements
-                          lONGDisplay="none"
-                          bTCPERP={`Unrealized P&L`}
-                          prop="$1.43 (9.20%)"
-                          propColor="#00c9a5"
-                        />
-                        <CompPositionsElements
-                          lONGDisplay="none"
-                          bTCPERP="Liq Price"
-                          prop="$1,435.89"
-                          propColor="#fff"
-                        />
-                        <CompPositionsElements
-                          lONGDisplay="none"
-                          bTCPERP="Net Funding"
-                          prop="$1.43"
-                          propColor="#00c9a5"
-                        />
-                      </div>
-                    </div>
-                    <div className={styles.closePositionWrapper}>
-                      <div className={styles.optimism}>Close Position</div>
-                    </div>
-                  </div>
+                  <CompPostionsHolder />
                 </div>
               </div>
             </div>
-            <div className={styles.frameParent25}>
+            <div className={styles.frameParent23}>
               <img className={styles.frameIcon1} alt="" src="/frame14.svg" />
               <div className={styles.optimism}>Add Widget</div>
             </div>
@@ -337,7 +281,7 @@ const ConduitCompinents8: NextPage = () => {
                 </div>
               </div>
               <div className={styles.frame85FixedInner}>
-                <div className={styles.frameParent27}>
+                <div className={styles.frameParent25}>
                   <div className={styles.frameWrapper2}>
                     <div className={styles.depositInBtcsusdPerpParent}>
                       <div className={styles.dashboard}>
@@ -350,8 +294,8 @@ const ConduitCompinents8: NextPage = () => {
                       />
                     </div>
                   </div>
-                  <div className={styles.frameParent28}>
-                    <div className={styles.frameParent29}>
+                  <div className={styles.frameParent26}>
+                    <div className={styles.frameParent27}>
                       <div className={styles.yourDepositParent}>
                         <div className={styles.optimism}>Your deposit:</div>
                         <div className={styles.div15}>100$</div>
@@ -395,7 +339,7 @@ const ConduitCompinents8: NextPage = () => {
                       <div className={styles.long1}>Short</div>
                     </div>
                   </div>
-                  <div className={styles.frameParent30}>
+                  <div className={styles.frameParent28}>
                     <div className={styles.setOrderSizeParent}>
                       <div className={styles.optimism}>Set Order Size:</div>
                       <div className={styles.leftParent}>
@@ -408,7 +352,7 @@ const ConduitCompinents8: NextPage = () => {
                       <div className={styles.susd}>sUSD</div>
                     </div>
                   </div>
-                  <div className={styles.frameParent31}>
+                  <div className={styles.frameParent29}>
                     <div className={styles.frameParent}>
                       <div className={styles.optimism}>Liquidation Price:</div>
                       <div className={styles.optimism}>Risk Level</div>
@@ -432,7 +376,7 @@ const ConduitCompinents8: NextPage = () => {
                       <div className={styles.div26}>2200$</div>
                     </div>
                   </div>
-                  <div className={styles.frameParent33}>
+                  <div className={styles.frameParent31}>
                     <div className={styles.increasePositionSizeMarginWrapper}>
                       <div className={styles.increasePositionSize}>
                         Increase position size margin to reduce risk
@@ -449,7 +393,7 @@ const ConduitCompinents8: NextPage = () => {
                       <div className={styles.dashboard}>Open Position</div>
                     </div>
                   </div>
-                  <div className={styles.componentGroup}>
+                  <div className={styles.componentParent}>
                     <div className={styles.positionSizeIsParent}>
                       <div
                         className={styles.optimism}
@@ -501,7 +445,7 @@ const ConduitCompinents8: NextPage = () => {
                 </div>
               </div>
             </div>
-            <div className={styles.frameParent34}>
+            <div className={styles.frameParent32}>
               <img className={styles.frameIcon1} alt="" src="/frame18.svg" />
               <div className={styles.optimism}>Add Widget</div>
             </div>
@@ -509,7 +453,7 @@ const ConduitCompinents8: NextPage = () => {
         </div>
       </div>
       <div className={styles.conduitcompinents8Inner}>
-        <div className={styles.frameParent35}>
+        <div className={styles.frameParent33}>
           <div className={styles.frame1}>
             <img className={styles.vectorIcon1} alt="" src="/vector1.svg" />
           </div>
