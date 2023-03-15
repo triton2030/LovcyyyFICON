@@ -1,0 +1,34 @@
+.btcPerp,
+.long {
+  position: relative;
+  line-height: 14px;
+}
+.btcPerp {
+  color: var(--blue-white);
+}
+.longParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.div {
+  position: relative;
+  line-height: 14px;
+  font-family: var(--mono-captions);
+}
+.frameParent {
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  background-color: var(--blue-block-bg50);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  align-items: flex-start;
+  justify-content: space-between;
+  text-align: left;
+  font-size: var(--mono-captions-size);
+  color: var(--blue-green-400);
+  font-family: var(--par-bold);
+}

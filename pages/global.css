@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Aeonik:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aeonik+Fono:wght@400;500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --par-bold: Aeonik;
+  --mono-captions: "Aeonik Fono";
+
+  /* font sizes */
+  --par-bold-size: 14px;
+  --mono-captions-size: 12px;
+  --caption-micro-size: 10px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --blue-main-dim: #3e5389;
+  --blue-main-block: #1a224c;
+  --blue-block-bg50: #0b1640;
+  --blue-block-bg50-50: rgba(8, 38, 82, 0.5);
+  --blue-bright-text: #cce1ff;
+  --blue-main-bg: #0e052d;
+  --color-gray-100: rgba(14, 5, 45, 0.5);
+  --blue-buttons: #00d0fe;
+  --blue-blue: #6fa0e4;
+  --blue-white: #fff;
+  --color-midnightblue: #0c0d36;
+  --color-palegreen: #87f18b;
+  --blue-green-400: #00c9a5;
+  --blue-red-500: #e4364b;
+
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-base: 16px;
+  --gap-5xs: 8px;
+  --gap-9xs: 4px;
+  --gap-7xs: 6px;
+  --gap-10xs: 3px;
+  --gap-xs: 12px;
+  --gap-8xs: 5px;
+  --gap-11xs: 2px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-base: 16px;
+  --padding-5xs: 8px;
+  --padding-8xs: 5px;
+  --padding-3xs: 10px;
+  --padding-sm: 14px;
+  --padding-21xl: 40px;
+  --padding-9xs: 4px;
+  --padding-7xs: 6px;
+  --padding-mini: 15px;
+  --padding-12xs: 1px;
+  --padding-11xs: 2px;
+  --padding-xl: 20px;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-7xs: 6px;
+  --br-9xs: 4px;
+  --br-21xl: 40px;
+  --br-11xs: 2px;
+  --br-sm: 14px;
+  --br-xs: 12px;
+  --br-142xl-5: 161.5px;
+}

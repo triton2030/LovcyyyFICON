@@ -1,0 +1,109 @@
+.image12Icon {
+  position: relative;
+  border-radius: var(--br-142xl-5);
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.btcPerpPerpetual,
+.div {
+  position: relative;
+  line-height: 14px;
+}
+.div {
+  font-size: var(--par-bold-size);
+  line-height: 16px;
+  font-weight: 500;
+  font-family: var(--mono-captions);
+}
+.btcPerpPerpetualParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xs);
+}
+.frameIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.frameWrapper,
+.image12Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.image12Parent {
+  gap: var(--gap-5xs);
+}
+.frameWrapper {
+  border-radius: var(--br-xs);
+  background-color: var(--color-midnightblue);
+  padding: var(--padding-base) var(--padding-xl);
+  color: var(--blue-white);
+}
+.div3,
+.div4,
+.m1257m {
+  position: relative;
+  line-height: 14px;
+  font-family: var(--mono-captions);
+  color: var(--blue-green-400);
+}
+.div4,
+.m1257m {
+  color: var(--blue-red-500);
+}
+.m1257m {
+  color: var(--blue-white);
+}
+.frameContainer,
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.frameContainer {
+  border-radius: var(--br-xs);
+  background-color: var(--color-midnightblue);
+  padding: var(--padding-base) var(--padding-21xl);
+  justify-content: flex-start;
+}
+.div5 {
+  position: relative;
+  line-height: 14px;
+  color: var(--blue-white);
+}
+.frameParent,
+.frameParent1 {
+  display: flex;
+  flex-direction: row;
+}
+.frameParent1 {
+  border-radius: var(--br-xs);
+  background-color: var(--color-midnightblue);
+  width: 260px;
+  flex-shrink: 0;
+  padding: var(--padding-base) var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  font-family: var(--mono-captions);
+}
+.frameParent {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--mono-captions-size);
+  color: var(--blue-blue);
+  font-family: var(--par-bold);
+}
